@@ -1,0 +1,32 @@
+# Sass files #
+##############
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+# Icon?
+Thumbs.db
+._*
+
+# WP files #
+##############
+.htaccess
+wp-content/uploads
+wp-config-sample.php
+.env
+
+# Other files #
+################
+*node_modules/
+package-lock.json
+/vendor
+*.log
+.well-known/
+*.ini
+_old-react/
+db.sql.gz

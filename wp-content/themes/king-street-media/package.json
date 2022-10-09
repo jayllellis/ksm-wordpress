@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "watch": "gulp watch",
+    "build": "gulp prod"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -1,0 +1,9 @@
+{
+    "config": {
+        "platform-check": false
+    },
+    "require": {
+        "mailchimp/marketing": "^3.0",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

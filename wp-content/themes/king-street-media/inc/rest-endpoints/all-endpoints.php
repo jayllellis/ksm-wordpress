@@ -1,0 +1,9 @@
+<?php
+include('_menus.php');
+include('_global.php');
+include('_mailchimp.php');
+include('_send-email.php');
+include('_pages.php');
+include('_projects.php');
+include('_single-page.php');
+include('_single-project.php');

@@ -1,0 +1,19 @@
+{
+  "name": "king-street-media",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "composer install; lando start",
+    "db:import": "lando db-import db.sql.gz; rm db.sql.gz",
+    "db:replace": "lando wp search-replace '//dev.kingstreetmedia.ca' '//ksm.lndo.site'  --url=ksm.lndo.site",
+    "watch": "cd wp-content/themes/king-street-media; gulp watch",
+    "build": "cd wp-content/themes/king-street-media; gulp prod"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "tailwindcss": "^3.1.8"
+  }
+}

@@ -1,0 +1,4 @@
+name: ksm-wordpress
+recipe: wordpress
+config:
+  webroot: .
